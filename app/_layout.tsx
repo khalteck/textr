@@ -10,6 +10,7 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="index" options={options} />
         <Stack.Screen name="login" options={options} />
+        <Stack.Screen name="register" options={options} />
       </Stack>
     </>
   );
